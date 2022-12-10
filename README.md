@@ -6,13 +6,13 @@
 1. Install:
 
 ```
-pip install aesthetic-ascii
+pip install git+https://github.com/AtieDag/selenium-browser
 ```
 
-2. Generate an aesthetic ASCII visual:
+2. Run the browser:
 
 ```python
-from webscraper import Browser
+from browser.webscraper import Browser
 
 # initialize the browser
 browser = Browser()
